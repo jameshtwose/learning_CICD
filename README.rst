@@ -2,8 +2,8 @@
 
 |Travis|_
 
-.. |Travis| image:: https://travis-ci.org/scikit-learn-contrib/project-template.svg?branch=master
-.. _Travis: https://travis-ci.org/scikit-learn-contrib/project-template
+.. |Travis| image:: https://travis-ci.com/jameshtwose/learning_travis_for_docs.svg?branch=main
+.. _Travis: https://travis-ci.com/jameshtwose/learning_travis_for_docs
 
 project-template - A template for scikit-learn contributions
 ============================================================
