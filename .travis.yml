@@ -45,6 +45,11 @@ script:
   - mkdir for_test
   - cd for_test
   - pytest -v --cov=jms_estimator --pyargs jms_estimator
+  - pdoc --html jms_estimator -o docs
+  - cd docs/jms_estimator/
+  - mv * ../
+  - cd ../
+  - rmdir jms_estimator/
 
 after_success:
   - codecov
