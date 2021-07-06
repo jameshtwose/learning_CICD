@@ -9,7 +9,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 from jms_estimator import JmsTransformer
 
-X = np.arange(50, dtype=np.float).reshape(-1, 1)
+X = np.arange(50, dtype=float).reshape(-1, 1)
 X /= 50
 estimator = JmsTransformer()
 X_transformed = estimator.fit_transform(X)
